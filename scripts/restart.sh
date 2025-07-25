@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo systemctl restart httpd
+echo "Deployed via CodeDeploy" > /var/www/html/info.txt
